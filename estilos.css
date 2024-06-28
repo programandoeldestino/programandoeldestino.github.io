@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+body {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.seccion {
+    width: calc(65% - 10px);
+}
+
+.seccion .titulo {
+    font-size: 1.3rem;
+    margin: 10px 0;
+}
+
+.seccion .descripcion {
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 0.9rem;
+}
+
+.seccion .descripcion > :first-child,
+.seccion .descripcion > :last-child {
+    margin-bottom: 0;
+}
+
+.seccion .ctn {
+    display: flex;
+    width: 35%;
+    justify-content: space-between;
+}
+
+.seccion .subscribers {
+    display: block;
+    font-size: 0.8rem;
+    color: #555;
+    margin-top: 4px;
+}
+
+.seccion .canal {
+    color: #111;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.seccion .subscribe {
+    border: 0;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0 10px;
+    font-size: 0.9rem;
+    cursor: pointer;
+}
+
+.seccion .subscribe:hover {
+    background-color: #555;
+}
+
+.seccion .reproductor {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 20px;
+}
+
+.videos {
+    width: calc(35% - 10px);
+}
+
+.video {
+    display: flex;
+    align-items: start;
+    column-gap: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+/* .video .ctn {
+    padding-left: 10px;
+} */
+
+.video .titulo {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+.video .data {
+    display: block;
+    font-size: 0.8rem;
+    color: #555;
+}
+
+.video .img {
+    border-radius: 10px;
+}
+
+.videos .link {
+    display: block;
+    color: #111;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.videos .link:hover {
+    background-color: orange;
+}
