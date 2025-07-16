@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+.main {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.info {
+    width: 65%;
+}
+
+.info .reproductor {
+    margin-bottom: 10px;
+    border: 0;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border-radius: 10px;
+}
+
+.info .titulo {
+    font-size: 40px;
+    margin-bottom: 10px;
+    font-family: "Manufacturing Consent", system-ui;
+}
+
+.info .descripcion {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #eee;
+    margin-top: 10px;
+}
+
+.info .descripcion p:first-child {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.info .ctn-canal {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.info .ctn-img {
+    display: flex;
+    gap: 10px;
+}
+
+.info .logo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.info .canal {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.info .subscribers {
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
+.info .btn {
+    border-radius: 16px;
+    border: 0;
+    padding: 0 15px;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.info .btn:hover {
+    background-color: #333;
+}
+
+.videos {
+    width: 35%;
+}
+
+.videos .video {
+    margin-bottom: 10px;
+}
+
+.video .link {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: start;
+    text-decoration: none;
+    color: black;
+}
+
+.video .img {
+    border-radius: 10px;
+}
+
+.video .titulo {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.video .data {
+    display: block;
+    font-size: 12px;
+    color: #888;
+}
+
